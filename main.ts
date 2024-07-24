@@ -1,4 +1,4 @@
-basic.showIcon(IconNames.No)
+basic.showIcon(IconNames.Yes)
 OLED.init(128, 64)
 IoTCube.LoRa_Join(
 eBool.enable,
