@@ -1,0 +1,31 @@
+{
+    "name": "IoT-Cube Quickstart",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "LoRa-AT-Interface": "github:paeber/lora-at-interface#1dcedff79902c964515abfc9134293b124ad6abf",
+        "pxt-SensorikSmartfeld": "github:SamuelBaw/pxt-sensorikSmartfeld#9ef3f2fa8d2e8bb212b176e4d4758294e95f8c0c"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.0.12",
+        "tag": "v5.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/97491d6832cccab6b5bdc05b58e4c6b5dcc18cdd",
+        "target": "6.0.28",
+        "pxt": "8.0.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
